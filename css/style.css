@@ -31,7 +31,12 @@ ul {
   color: #ffffff;
   background-color: #2196f3;
 }
-
+/* buttons */
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
 /* Палитра цветов  */
 /* основной цвет текста #212121 */
 /* цвет текста белый #FFFFFF */
