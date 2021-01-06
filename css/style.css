@@ -1,8 +1,8 @@
 :root {
   --primary-text-color: #212121;
-  --primary-text-color2: #ffffff;
+  --secondary-primary-text-color: #ffffff;
   --ouwer-text-color: #757575;
-  --ouwer-text-color2: #ffffff;
+  --secondary-ouwer-text-color: #ffffff;
   --acent-color: #2196f3;
   --contener-color: #eeeeee;
   --logo-color: #000000;
@@ -41,12 +41,12 @@ ul {
 .tel-mail:focus {
   color: var(--acent-color);
 }
-/* Hero */
+/* Hero studio */
 .hero-button {
   color: var(--background-color);
   background-color: var(--acent-color);
 }
-/* buttons */
+/* buttons portfolio */
 .button:hover,
 .button:focus {
   color: var(--background-color);
