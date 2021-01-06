@@ -1,0 +1,38 @@
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+ul {
+  list-style: none;
+}
+/* Шапка сайта */
+.logo {
+  color: #000000;
+}
+/* site-nav */
+.site-nav:hover,
+.site-nav:focus {
+  color: #2196f3;
+}
+/* .tel-mail */
+.tel-mail {
+  color: #757575;
+}
+.tel-mail:hover,
+.tel-mail:focus {
+  color: #2196f3;
+}
+
+/* Палитра цветов  */
+/* основной цвет текста #212121 */
+/* цвет текста белый #FFFFFF */
+/* цвет выделения #2196F3 */
+/* цвет текста studio #000000 */
+/* вторичный цвет текста #757575 */
+/* цвет background #FFFFFF */
+/*  цвет контейнеров #EEEEEE */
+/* backgruond кнопок портфолио #F5F4FA */
+/* backgruond footer #2F303A */
+/* цвет ссылок тел и майл rgba(255, 255, 255, 0.6) */
+/* цвет для линии #ECECEC */
