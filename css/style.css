@@ -1,6 +1,21 @@
+:root {
+  --primary-text-color: #212121;
+  --primary-text-color2: #ffffff;
+  --ouwer-text-color: #757575;
+  --ouwer-text-color2: #ffffff;
+  --acent-color: #2196f3;
+  --contener-color: #eeeeee;
+  --logo-color: #000000;
+  --buttons-port-color: #f5f4fa;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --background-footer-color: #2f303a;
+  --line-color: #ececec;
+  --background-color: #ffffff;
+}
+
 body {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
 }
 
 ul {
@@ -8,44 +23,32 @@ ul {
 }
 /* Шапка сайта */
 .logo {
-  color: #000000;
+  color: var(--logo-color);
 }
 .logo-word {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 /* site-nav */
 .site-nav:hover,
 .site-nav:focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 /* .tel-mail */
 .tel-mail {
-  color: #757575;
+  color: var(--ouwer-text-color);
 }
 .tel-mail:hover,
 .tel-mail:focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 /* Hero */
 .hero-button {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--background-color);
+  background-color: var(--acent-color);
 }
 /* buttons */
 .button:hover,
 .button:focus {
-  color: #ffffff;
-  background-color: #2196f3;
+  color: var(--background-color);
+  background-color: var(--acent-color);
 }
-/* Палитра цветов  */
-/* основной цвет текста #212121 */
-/* цвет текста белый #FFFFFF */
-/* цвет выделения #2196F3 */
-/* цвет текста studio #000000 */
-/* вторичный цвет текста #757575 */
-/* цвет background #FFFFFF */
-/*  цвет контейнеров #EEEEEE */
-/* backgruond кнопок портфолио #F5F4FA */
-/* backgruond footer #2F303A */
-/* цвет ссылок тел и майл rgba(255, 255, 255, 0.6) */
-/* цвет для линии #ECECEC */
