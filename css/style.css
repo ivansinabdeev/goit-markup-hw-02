@@ -10,6 +10,9 @@ ul {
 .logo {
   color: #000000;
 }
+.logo-word {
+  color: #2196f3;
+}
 /* site-nav */
 .site-nav:hover,
 .site-nav:focus {
@@ -22,6 +25,11 @@ ul {
 .tel-mail:hover,
 .tel-mail:focus {
   color: #2196f3;
+}
+/* Hero */
+.hero-button {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 /* Палитра цветов  */
