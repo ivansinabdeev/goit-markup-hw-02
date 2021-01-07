@@ -21,7 +21,9 @@ body {
 ul {
   list-style: none;
 }
+
 /* Шапка сайта */
+
 .logo {
   color: var(--logo-color);
 }
@@ -29,8 +31,14 @@ ul {
   color: var(--acent-color);
 }
 /* site-nav */
-.site-nav:hover,
-.site-nav:focus {
+.link-nav {
+  color: var(--primary-text-color);
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--acent-color);
+}
+.site-nav.link-nav.current {
   color: var(--acent-color);
 }
 /* .tel-mail */
@@ -41,14 +49,32 @@ ul {
 .tel-mail:focus {
   color: var(--acent-color);
 }
+
+/* studio */
+
 /* Hero studio */
 .hero-button {
   color: var(--background-color);
   background-color: var(--acent-color);
+  cursor: pointer;
 }
+
+/* portfolio */
+
 /* buttons portfolio */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--buttons-port-color);
+}
 .button:hover,
 .button:focus {
   color: var(--background-color);
   background-color: var(--acent-color);
+  cursor: pointer;
+}
+
+/* Footer */
+.logo-footer {
+  color: var(--secondary-primary-text-color);
+  background-color: var(--primary-text-color);
 }
