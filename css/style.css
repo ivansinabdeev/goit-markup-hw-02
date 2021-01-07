@@ -16,16 +16,27 @@
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
 }
 
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 
 /* Шапка сайта */
 
 .logo {
   color: var(--logo-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
 }
 .logo-word {
   color: var(--acent-color);
@@ -33,6 +44,10 @@ ul {
 /* site-nav */
 .link-nav {
   color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 16px;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -44,6 +59,10 @@ ul {
 /* .tel-mail */
 .tel-mail {
   color: var(--ouwer-text-color);
+  font-weight: 500;
+  line-height: 16px;
+  font-size: 14px;
+  letter-spacing: 0.02em;
 }
 .tel-mail:hover,
 .tel-mail:focus {
@@ -51,12 +70,24 @@ ul {
 }
 
 /* studio */
+.hero-title {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+}
 
 /* Hero studio */
 .hero-button {
   color: var(--background-color);
   background-color: var(--acent-color);
   cursor: pointer;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
 }
 
 /* portfolio */
@@ -77,4 +108,9 @@ ul {
 .logo-footer {
   color: var(--secondary-primary-text-color);
   background-color: var(--primary-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
 }
