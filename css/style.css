@@ -9,6 +9,7 @@
   --buttons-port-color: #f5f4fa;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --background-footer-color: #2f303a;
+  --background-section: #e5e5e5;
   --line-color: #ececec;
   --background-color: #ffffff;
 }
@@ -20,7 +21,6 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 }
-
 ul {
   list-style: none;
 }
@@ -110,6 +110,9 @@ a {
   text-align: center;
 }
 /* Team */
+.team-section {
+  background-color: var(--background-section);
+}
 .team-name {
   font-weight: 500;
   font-size: 16px;
