@@ -16,8 +16,9 @@
 body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 ul {
@@ -25,6 +26,7 @@ ul {
 }
 a {
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Шапка сайта */
@@ -32,11 +34,9 @@ a {
 .logo {
   color: var(--logo-color);
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
 }
 .logo-word {
   color: var(--acent-color);
@@ -45,7 +45,7 @@ a {
 .link-nav {
   color: var(--primary-text-color);
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   font-size: 14px;
   letter-spacing: 0.02em;
 }
@@ -60,7 +60,7 @@ a {
 .tel-mail {
   color: var(--ouwer-text-color);
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   font-size: 14px;
   letter-spacing: 0.02em;
 }
@@ -70,13 +70,6 @@ a {
 }
 
 /* studio */
-.hero-title {
-  font-family: Roboto;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-}
 
 /* Hero studio */
 .hero-button {
@@ -86,16 +79,59 @@ a {
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   letter-spacing: 0.06em;
 }
-
+.hero-title {
+  color: var(--secondary-primary-text-color);
+  background-color: var(--background-footer-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+/* Features */
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.features-text {
+  color: var(--ouwer-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* Team */
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team-work {
+  color: var(--ouwer-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
 /* portfolio */
 
 /* buttons portfolio */
 .button {
   color: var(--primary-text-color);
   background-color: var(--buttons-port-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 .button:hover,
 .button:focus {
@@ -103,14 +139,40 @@ a {
   background-color: var(--acent-color);
   cursor: pointer;
 }
+/* Galery of projects */
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-name {
+  color: var(--ouwer-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
 
 /* Footer */
 .logo-footer {
   color: var(--secondary-primary-text-color);
   background-color: var(--primary-text-color);
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+}
+.tel-mail-footer {
+  color: var(--footer-text-color);
+  background-color: var(--background-footer-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-map {
+  color: var(--secondary-primary-text-color);
+  background-color: var(--background-footer-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
